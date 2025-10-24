@@ -119,7 +119,6 @@
     "icon": "yamaha.png",
     "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.yamaha/master/admin/yamaha.png",
     "readme": "https://github.com/iobroker-community-adapters/ioBroker.yamaha/blob/master/README.md",
-    "license": "MIT",
     "loglevel": "info",
     "keywords": [
       "yamaha",
@@ -131,7 +130,6 @@
     "connectionType": "local",
     "dataSource": "push",
     "tier": 2,
-    "materialize": true,
     "compact": true,
     "authors": [
       {
@@ -151,6 +149,10 @@
     },
     "adminUI": {
       "config": "json"
+    },
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
     }
   },
   "native": {

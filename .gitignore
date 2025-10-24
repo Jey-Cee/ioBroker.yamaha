@@ -49,3 +49,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 npm-debug.log
+
+
+# ioBroker dev-server
+.dev-server/

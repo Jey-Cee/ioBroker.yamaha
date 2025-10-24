@@ -1,11 +1,12 @@
 {
+  "i18n": true,
   "type": "panel",
   "label": "Yamaha",
   "items": [
     {
       "type": "header",
-      "label": "template adapter settings",
-      "size": { "xs": 12, "sm": 12, "md": 12, "lg": 12, "xl": 12 }
+      "label": "Connection settings",
+      "size": 2
     },
     {
       "type": "text",
@@ -13,7 +14,11 @@
       "ref": "ip",
       "placeholder": "192.168.1.10",
       "help": "IP Address",
-      "size": { "xs": 12, "sm": 12, "md": 6, "lg": 4, "xl": 4 }
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 4,
+      "xl": 4
     },
     {
       "type": "number",
@@ -23,26 +28,38 @@
       "step": 1,
       "help": "Poll Interval",
       "default": 120,
-      "size": { "xs": 12, "sm": 12, "md": 6, "lg": 4, "xl": 4 }
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 4,
+      "xl": 4
     },
     {
       "type": "header",
       "label": "Realtime Options",
-      "size": { "xs": 12, "sm": 12, "md": 12, "lg": 12, "xl": 12 }
+      "size": 2
     },
     {
       "type": "checkbox",
       "label": "Use Realtime",
       "ref": "useRealtime",
       "default": true,
-      "size": { "xs": 12, "sm": 12, "md": 6, "lg": 4, "xl": 4 }
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 4,
+      "xl": 4
     },
     {
       "type": "checkbox",
       "label": "refreshOnRealtime",
       "ref": "refreshOnRealtime",
       "default": true,
-      "size": { "xs": 12, "sm": 12, "md": 6, "lg": 4, "xl": 4 }
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 4,
+      "xl": 4
     },
     {
       "type": "number",
@@ -52,7 +69,11 @@
       "step": 1,
       "default": 0,
       "help": "Ping interval",
-      "size": { "xs": 12, "sm": 12, "md": 6, "lg": 4, "xl": 4 }
+      "xs": 12,
+      "sm": 12,
+      "md": 6,
+      "lg": 4,
+      "xl": 4
     }
   ]
 }
