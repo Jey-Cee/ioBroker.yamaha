@@ -148,13 +148,17 @@
       "sentry": {
         "dsn": "https://651c9af0c80e486bbde477e8db0ba8b3@sentry.iobroker.net/174"
       }
+    },
+    "adminUI": {
+      "config": "json"
     }
   },
   "native": {
     "ip": "",
-    "intervall": 120,
+    "interval": 120,
     "useRealtime": true,
-    "refreshOnRealtime": true
+    "refreshOnRealtime": true,
+    "realtimePing": 0
   },
   "objects": [],
   "instanceObjects": [
